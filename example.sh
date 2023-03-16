@@ -1,6 +1,6 @@
 #!/bin/bash
 
-url="https://www.example.com"
+url="https://www.google.com"
 
 status_code=$(curl --write-out "%{http_code}\n" --silent --output /dev/null "$url")
 
