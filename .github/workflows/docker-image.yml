@@ -18,4 +18,4 @@ jobs:
       run: docker build . --file Dockerfile --tag my-image-name:latest
     
     - name: exe shell script 
-      run: ./example.sh
+      run: chmod 777 example.sh && ./example.sh
